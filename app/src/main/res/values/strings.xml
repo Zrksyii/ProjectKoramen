@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Project Koramen</string>
+    <string name="silahkan_login_untuk_melanjutkan">Silahkan login untuk melanjutkan</string>
+    <string name="welcome">Welcome !</string>
+    <string name="username">\tusername</string>
+    <string name="password">\tpassword</string>
+    <string name="lupa_passwprd">Lupa Password ?</string>
+    <string name="masuk">MASUK</string>
+    <string name="belom_punya_akun">Belom punya akun ? </string>
+    <string name="daftar"> daftar</string>
+    <string name="daftar_akun">Daftar Akun !</string>
+    <string name="silahkan_membuat_akun_anda">Silahkan membuat akun anda</string>
+    <string name="nama_lengkap">\tNama Lengkap</string>
+    <string name="reusername">\tUsername</string>
+    <string name="nomor_hp">\tNomor Ponsel</string>
+    <string name="alamat_email">\tAlamat Email</string>
+    <string name="repassword">\tPassword</string>
+    <string name="redaftar">DAFTAR</string>
+    <string name="sudah_punya_akun">Sudah punya akun ? </string>
+    <string name="remasuk">masuk</string>
+    <string name="beranda">TAMPILAN BERANDA</string>
+    <string name="judulberanda">Let\'s Eat \n\t\t\t\t\tfor your goodlife</string>
+    <string name="All">All</string>
+    <string name="Ramen">Ramen</string>
+    <string name="Bento">Bento</string>
+    <string name="Sushi">Sushi</string>
+    <string name="Drinks">Drinks</string>
+    <string name="profile">Profile</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="_62_852_1924_3805">+62 852 1924 3805</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="instagram">Instagram</string>
+    <string name="tiktok">Tik Tok</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">YouTube</string>
+    <string name="email">E-Mail</string>
+    <string name="aboutus">About Us</string>
+    <string name="logout">Log Out</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="hello_shop_fragment">Hello Shop Fragment</string>
+    <string name="hello_favorit_fragment">Hello Favorit Fragment</string>
+    <string name="namaprofile">Nama Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc">"sebuah aplikasi yang dibuat oleh sekelompok manusia tersesat untuk memenuhi memenuhi tugas pemrograman \nyang berbasis kotlin dengan menggunakan android studio\n\nini adalah sebuah aplikasi e-commerce yang berbasis android studio dengan tema penjualan \nmakanan ala jepang khususnya ramen, pemesanan pada aplikasi ini menggunakan sistem online.\n\nada berbagai macam pilihan makanan serta minuman juga tersedia, selain itu aplikasi ini juga dapat membantu konsumen yang sibuk dalam pekerjaannya,\nkarena untuk pesan ramen ini juga tidak perlu keluar rumah melainkan cukup dengan aplikasi di android saja. "</string>
+
+
+</resources>

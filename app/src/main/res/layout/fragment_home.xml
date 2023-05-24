@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:fontFamily="@font/poppinsextra"
+                android:gravity="center"
+                android:text="@string/beranda"
+                android:textSize="10pt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="61dp"
+                android:layout_marginEnd="22dp"
+                android:background="@drawable/round_back_home"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:gravity="center_vertical"
+                    android:text="@string/judulberanda"
+                    android:textSize="12pt" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="13dp">
+
+                    <Button
+                        android:id="@+id/btnMenu1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/button_shape"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="@string/All" />
+
+                    <Button
+                        android:id="@+id/btnMenu2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/button_shape"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="@string/Ramen" />
+
+                    <Button
+                        android:id="@+id/btnMenu3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/button_shape"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="@string/Bento" />
+
+                    <Button
+                        android:id="@+id/btnMenu4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/button_shape"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="@string/Sushi" />
+
+                    <Button
+                        android:id="@+id/btnMenu5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/button_shape"
+                        android:fontFamily="@font/poppinsregular"
+                        android:text="@string/Drinks" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
