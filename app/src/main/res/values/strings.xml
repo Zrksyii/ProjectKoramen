@@ -14,6 +14,7 @@
     <string name="reusername">\tUsername</string>
     <string name="nomor_hp">\tNomor Ponsel</string>
     <string name="alamat_email">\tAlamat Email</string>
+    <string name="emaill">\tEmail</string>
     <string name="repassword">\tPassword</string>
     <string name="redaftar">DAFTAR</string>
     <string name="sudah_punya_akun">Sudah punya akun ? </string>
@@ -41,9 +42,27 @@
     <string name="hello_shop_fragment">Hello Shop Fragment</string>
     <string name="hello_favorit_fragment">Hello Favorit Fragment</string>
     <string name="namaprofile">Nama Profile</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="desc">"sebuah aplikasi yang dibuat oleh sekelompok manusia tersesat untuk memenuhi memenuhi tugas pemrograman \nyang berbasis kotlin dengan menggunakan android studio\n\nini adalah sebuah aplikasi e-commerce yang berbasis android studio dengan tema penjualan \nmakanan ala jepang khususnya ramen, pemesanan pada aplikasi ini menggunakan sistem online.\n\nada berbagai macam pilihan makanan serta minuman juga tersedia, selain itu aplikasi ini juga dapat membantu konsumen yang sibuk dalam pekerjaannya,\nkarena untuk pesan ramen ini juga tidak perlu keluar rumah melainkan cukup dengan aplikasi di android saja. "</string>
-
-
+    <string name="desc">"sebuah aplikasi yang dibuat oleh sekelompok manusia tersesat untuk memenuhi tugas pemrograman \nyang berbasis kotlin dengan menggunakan android studio\n\nini adalah sebuah aplikasi e-commerce yang berbasis android studio dengan tema penjualan \nmakanan ala jepang khususnya ramen, pemesanan pada aplikasi ini menggunakan sistem online.\n\nada berbagai macam pilihan makanan serta minuman juga tersedia, selain itu aplikasi ini juga dapat membantu konsumen yang sibuk dalam pekerjaannya,\nkarena untuk pesan ramen ini juga tidak perlu keluar rumah melainkan cukup dengan aplikasi di android saja. "</string>
+    <string name="list_menu">list menu</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="noname">No Name</string>
+    <string name="default_phone">no phone number</string>
+    <string name="name">Nama</string>
+    <string name="phone_number">Nomor Telp</string>
+    <string name="save">SIMPAN</string>
+    <string name="empty_message">Tidak ada</string>
+    <string name="setting_page">Setting</string>
+    <string name="field_required">Tidak boleh kosong</string>
+    <string name="field_digit_only">Hanya boleh terisi numerik</string>
+    <string name="delete">Hapus</string>
+    <string name="title">Judul</string>
+    <string name="description">Deskripsi</string>
+    <string name="penulis">Penulis</string>
+    <string name="pengingat">Pengingat</string>
+    <string name="category">Kategori</string>
+    <string name="submit">SIMPAN</string>
+    <string name="date">Tanggal</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="uid">UID</string>
 </resources>

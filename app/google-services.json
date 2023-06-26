@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "347287438710",
+    "project_id": "projectkoramen",
+    "storage_bucket": "projectkoramen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347287438710:android:fa1356f89e9917f7db2657",
+        "android_client_info": {
+          "package_name": "com.example.projectkoramen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347287438710-2h0ej2ueiu4mfjkujglgmv6ue9ngnl41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projectkoramen",
+            "certificate_hash": "b10c5ccf49ff4306d22d57c069f4f12ff7fe8d9d"
+          }
+        },
+        {
+          "client_id": "347287438710-6mqfkpvdd7vmkvu8i3j1tr7ho1ab2n7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVTjHihGnfA3dy2C4p6rsrkPVrvUCFlzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347287438710-6mqfkpvdd7vmkvu8i3j1tr7ho1ab2n7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
