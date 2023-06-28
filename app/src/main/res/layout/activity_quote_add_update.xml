@@ -44,21 +44,6 @@
         android:layout_marginBottom="16dp">
 
         <EditText
-            android:id="@+id/edt_penulis"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:hint="@string/penulis"
-            android:inputType="textCapSentences"
-            android:maxLines="1" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp">
-
-        <EditText
             android:id="@+id/edt_pengingat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

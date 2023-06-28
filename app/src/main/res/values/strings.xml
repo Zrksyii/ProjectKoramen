@@ -56,7 +56,7 @@
     <string name="field_required">Tidak boleh kosong</string>
     <string name="field_digit_only">Hanya boleh terisi numerik</string>
     <string name="delete">Hapus</string>
-    <string name="title">Judul</string>
+    <string name="title">Judul Resep</string>
     <string name="description">Deskripsi</string>
     <string name="penulis">Penulis</string>
     <string name="pengingat">Pengingat</string>

@@ -30,7 +30,7 @@
             android:name=".QuoteAddUpdateActivity"
             android:exported="false" />
         <activity
-            android:name=".UserAccount"
+            android:name=".ReViewActivity"
             android:exported="false" />
         <activity
             android:name=".Dashboard"

@@ -57,6 +57,7 @@
                 android:background="@drawable/password"
                 android:fontFamily="@font/poppinsregular"
                 android:hint="@string/password"
+                android:inputType="textPassword"
                 android:paddingStart="8dp"
                 android:paddingTop="4dp" />
 

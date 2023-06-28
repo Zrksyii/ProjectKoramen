@@ -32,14 +32,6 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/tv_item_penulis"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/penulis"
-                android:textAlignment="center"
-                android:textSize="12sp" />
-
-            <TextView
                 android:id="@+id/tv_item_category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
