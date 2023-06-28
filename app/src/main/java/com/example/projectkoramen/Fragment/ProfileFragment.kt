@@ -55,12 +55,18 @@ class ProfileFragment : Fragment(), View.OnClickListener {
             startActivity(Intent(requireActivity(), MainActivity::class.java))
             requireActivity().finish()
         }
+        mSettingPreference = SettingPreference(requireContext())
     }
 
     override fun onClick(p0: View?) {
         when (p0?.id) {
             R.id.btnSignOut -> signOut()
             R.id.btnEmailVerify -> sendEmailVerification()
+            R.id.btnSetting -> {
+                val intent = Intent(requireContext(), SettingPreferenceActivity::class.java)
+                intent.putExtra("SETTING", settingModel)
+                resultLauncher.launch(intent)
+            }
         }
     }
 
@@ -78,7 +84,9 @@ class ProfileFragment : Fragment(), View.OnClickListener {
         binding.apply {
             btnSignOut.setOnClickListener(this@ProfileFragment)
             btnEmailVerify.setOnClickListener(this@ProfileFragment)
+            binding.btnSetting.setOnClickListener(this@ProfileFragment)
         }
+        showExistingPreferences()
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build()

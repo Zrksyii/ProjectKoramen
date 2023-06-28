@@ -9,12 +9,8 @@ import java.util.Locale
 
 object Helper {
     var categoryList = arrayOf(
-        "Motivasi",
-        "Persahabatan",
-        "Percintaan",
-        "Keluarga",
-        "Musik",
-        "Film"
+        "Makanan",
+        "Minuman",
     )
     const val EXTRA_QUOTE = "extra_quote"
     const val EXTRA_POSITION = "extra_position"

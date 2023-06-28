@@ -37,7 +37,6 @@ class SettingPreferenceActivity : AppCompatActivity(), View.OnClickListener {
                 val name = edtName.text.toString().trim()
                 val phoneNo = edtPhone.text.toString().trim()
 
-
                 if (name.isEmpty()) {
                     edtName.error = getString(R.string.field_required)
                     return
